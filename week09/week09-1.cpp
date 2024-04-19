@@ -1,0 +1,16 @@
+///week09-1.cpp 了解函式定義
+#include <stdio.h>
+int myAdd(int a,int b){ ///函式定義
+    return a+b;
+}
+void myPrint(int a){ ///函式定義
+    for(int i=1;i<=a;i++) printf("*");
+    printf("\n");
+}
+int main() ///mian()函式
+{
+    int ans=myAdd(3,4);
+    printf("Hello ans: %d\n",ans);
+    myPrint(ans); ///函式呼叫(請他幫我做事)
+
+}
